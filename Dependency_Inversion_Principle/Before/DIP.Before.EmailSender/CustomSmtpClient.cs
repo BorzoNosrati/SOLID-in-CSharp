@@ -1,6 +1,6 @@
 
 
-namespace EmailUtility;
+namespace DIP.Before.EmailSender;
 
 public class CustomSmtpClient
 {

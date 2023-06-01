@@ -1,6 +1,6 @@
 
 using System;
-namespace EmailUtility;
+namespace DIP.Before.EmailSender;
 
 public class CustomImapClient
 {

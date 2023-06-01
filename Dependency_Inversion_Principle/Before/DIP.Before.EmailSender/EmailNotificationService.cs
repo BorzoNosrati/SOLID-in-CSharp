@@ -1,14 +1,14 @@
 ﻿
 
-namespace EmailUtility;
-public class EmailNotification
+namespace DIP.Before.EmailSender;
+public class EmailNotificationService
 {
 
     private readonly CustomSmtpClient _smtpClient;
     private readonly CustomImapClient _imapClient;
     private readonly EmailSenderType _senderType;
 
-    public EmailNotification(EmailSenderType senderType)
+    public EmailNotificationService(EmailSenderType senderType)
     {
         _senderType = senderType;
         _smtpClient = new CustomSmtpClient();

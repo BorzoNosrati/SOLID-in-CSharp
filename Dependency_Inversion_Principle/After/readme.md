@@ -6,4 +6,5 @@ graph TD;
     EmailFactory-->Abstraction;
     EmailSender-->Abstraction;
     Services-->Abstraction;
+    App-->Abstraction;
 ```

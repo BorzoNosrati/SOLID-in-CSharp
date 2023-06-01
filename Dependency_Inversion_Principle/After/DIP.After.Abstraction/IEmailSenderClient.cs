@@ -1,4 +1,4 @@
-namespace EmailUtility;
+namespace DIP.After.Abstraction;
 
 public interface IEmailSenderClient
 {

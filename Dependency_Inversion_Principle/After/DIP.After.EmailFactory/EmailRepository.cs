@@ -1,12 +1,13 @@
-﻿using EmailUtility;
+﻿using DIP.After.Abstraction;
+using EmailUtility;
 
 namespace DIP.After.EmailFactory;
 public class EmailRepository
 {
-     public static CustomSmtpClient CreateSmtpClient(){
+     public static IEmailSenderClient CreateSmtpClient(){
         return new CustomSmtpClient();
      }
-     public static CustomImapClient CreateImapClient(){
+     public static IEmailSenderClient CreateImapClient(){
         return new CustomImapClient();
      }
 }

@@ -26,6 +26,7 @@ public class EmailNotification
                 _imapClient.Send(emailAddress, message);
                 break;
             default:
+            break;
         }
     }
 }

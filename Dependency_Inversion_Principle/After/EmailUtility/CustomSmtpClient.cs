@@ -2,7 +2,7 @@
 
 namespace EmailUtility;
 
-public class CustomSmtpClient
+public class CustomSmtpClient:IEmailSenderClient
 {
     public bool Send(string emailAddress, string message)
     {

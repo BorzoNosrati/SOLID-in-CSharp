@@ -2,7 +2,7 @@
 using System;
 namespace EmailUtility;
 
-public class CustomImapClient
+public class CustomImapClient:IEmailSenderClient
 {
     public bool Send(string emailAddress, string message)
     {

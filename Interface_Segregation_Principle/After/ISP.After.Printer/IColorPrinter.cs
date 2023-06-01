@@ -2,5 +2,5 @@
 
 public interface IColorPrinter
 {
-    void Print();
+    void ColorPrint();
 }

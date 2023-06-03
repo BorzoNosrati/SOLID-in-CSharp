@@ -4,7 +4,7 @@
 >Liskov substitution principle is named after Barbara Liskov,
 who first formulated it in 1988.
 
-The Liskov substitution principle says 
+The Liskov substitution principle states 
 that all classes should be 
 substitutable for their base classes.
 
